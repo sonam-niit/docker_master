@@ -1,6 +1,6 @@
-FROM ubuntu:18.04
+# FROM ubuntu:18.04
 
-ENV DEBIAN_FRONTEND=non-interactive
+# ENV DEBIAN_FRONTEND=non-interactive
 # Install dependencies
 RUN apt-get update -y
 RUN apt-get install -y git curl apache2 php libapache2-mod-php php-mysql
