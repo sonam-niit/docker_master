@@ -15,7 +15,7 @@
     <body>
         <div class="container">
             <div class="hero-unit">
-                <h1>Simple PHP App</h1>
+                <h1>Simple PHP App Updated Again</h1>
                 <h2>Congratulations</h2>
                 <p>Your PHP application is now running on a container in Docker Swarm</p>
                 <p>The Kubernetes Docker container is running on <?php echo gethostname() ?> with PHP version <?php echo phpversion(); ?>.</p>
